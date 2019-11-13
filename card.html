@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./card.css" rel="stylesheet"  type="text/css">
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="./card.js"></script>
+    <title>Celebration Card | Exercise</title>
+</head>
+<body>
+    <header>
+        <h1 class="center">Make-A-Card</h1>
+    </header>
+    <main>
+        <form id="card-form" action="">
+            <label id="greeting-lbl" for="greeting">Greeting: </label><input id="greeting-txt" name="greeting" type="text"><br>
+            <label for="events">Occassion:</label>
+            <select name="events" id="dropdown" >
+                <option value="anniversaries">Anniversary</option>
+                <option value="birthdays">Birthday</option>
+                <option value="valentines">Valentine's Day</option>
+                <option value="christmas">Christmas</option>
+                <option value="easter">Easter</option>
+                <option value="fathers-day">Father's Day</option>
+                <option value="mothers-day">Mother's Day</option>
+            </select><br>
+            <label for="msg">Message: </label><br><textarea name="msg" id="msg" cols="34" rows="10"></textarea><br>
+            <input id="submit-btn" type="submit" value="Submit">
+        </form>
+    </main>
+    
+</body>
+</html>
